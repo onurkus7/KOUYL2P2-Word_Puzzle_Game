@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deneme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BaslaKontrolActivity"
+            android:parentActivityName=".MainActivity"
+            ></activity>
+        <activity
+            android:name=".TabloListele"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Level_3_5"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_3_3"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_3_4"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_3_2"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_3_1"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_2_5"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_2_4"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_2_3"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_2_2"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_2_1"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_1_5"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_1_4"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_1_3"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_1_2"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_1_1"
+            android:parentActivityName=".BaslaActivity"/>
+        <activity
+            android:name=".Level_3"
+            android:parentActivityName=".BaslaActivity" />
+        <activity
+            android:name=".Level_1"
+            android:parentActivityName=".BaslaActivity" />
+        <activity
+            android:name=".Level_2"
+            android:parentActivityName=".BaslaActivity" />
+        <activity
+            android:name=".BaslaActivity"
+            android:parentActivityName=".BaslaKontrolActivity" />
+        <activity
+            android:name=".Hakkinda"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
